@@ -1,0 +1,69 @@
+.ov-btn-grow-spin {
+    background: #fff; 
+    color: #283618; 
+    border: 2px solid #283618; 
+    padding: 16px 20px;
+    border-radius: 3px; 
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.ov-btn-grow-spin:hover {
+    color: #fff;
+}
+
+.ov-btn-grow-spin::after {
+    content: "";
+    background: #283618;
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transform: scale(0, 0) rotate(-180deg);
+    transition: all 0.3s ease;
+}
+
+.ov-btn-grow-spin:hover::after {
+    transition: all 0.3s ease-out;
+    transform: scale(1, 1) rotate(0deg);
+}
+
+
+.ov-btn-grow-box {
+    background: #fff; 
+    color: #9c0123; 
+    border: 2px solid #9c0123; 
+    padding: 16px 20px;
+    border-radius: 3px; 
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+    }
+    .ov-btn-grow-box:hover {
+    color: #fff;
+    }
+    .ov-btn-grow-box::after {
+    content: "";
+    background: #9c0123; 
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transform: scale(0, 0);
+    transition: all 0.3s ease;
+    }
+    .ov-btn-grow-box:hover::after {
+    transition: all 0.3s ease-out;
+    transform: scale(1, 1);
+    }
