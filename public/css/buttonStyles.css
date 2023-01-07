@@ -1,7 +1,7 @@
 .ov-btn-grow-spin {
     background: #fff; 
-    color: #283618; 
-    border: 2px solid #283618; 
+    color: #a8aeff; 
+    border: 2px solid #020072; 
     padding: 16px 20px;
     border-radius: 3px; 
     position: relative;
@@ -37,8 +37,8 @@
 
 .ov-btn-grow-box {
     background: #fff; 
-    color: #9c0123; 
-    border: 2px solid #9c0123; 
+    color: #2d9c01; 
+    border: 2px solid #019c42; 
     padding: 16px 20px;
     border-radius: 3px; 
     position: relative;
@@ -51,7 +51,7 @@
     }
     .ov-btn-grow-box::after {
     content: "";
-    background: #9c0123; 
+    background: #99da85; 
     position: absolute;
     z-index: -1;
     padding: 16px 20px;
