@@ -1,12 +1,4 @@
 
-.searchBar {
-  display: flex;
-  justify-content: space-between;
-  width: 33%;
-  background-color: #ffffff;
-  border: 1px solid white;
-  border-radius: 5px;
-}
 main {
     width: 70%;
     /* border: 1px solid black; */
